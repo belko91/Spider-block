@@ -25,7 +25,6 @@ jobs:
 
     - name: Install Capacitor and Build Project
       run: |
-        npm install -g npm@latest
         npm init -y
         npm install @capacitor/core@latest @capacitor/cli@latest @capacitor/android@latest
         npx cap init "Marvel Block Blast" com.marvel.blockblast --web-dir www
